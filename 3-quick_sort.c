@@ -1,13 +1,13 @@
 #include "sort.h"
 
-void quicksort(int *array,int first,int last){
+void quicksort(int *array,int first,int last)
+{
    int i, j, pivot, temp, reserve;
 
    reserve = last + 1;
    if(first < last)
    {
-      print_array(array, reserve);
-      pivot=first;
+      pivot=last;
       i=first;
       j=last;
       while(i < j)
@@ -20,6 +20,7 @@ void quicksort(int *array,int first,int last){
             temp=array[i];
             array[i]=array[j];
             array[j]=temp;
+            print_array(array, reserve);
          }
       }
       temp=array[pivot];
