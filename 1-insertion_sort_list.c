@@ -1,8 +1,6 @@
 #include "sort.h"
-
 void insertion_sort_list(listint_t **list)
 {
-
     listint_t *head, *i, *h, *temp;
     i = head = *list;
 
@@ -43,12 +41,9 @@ void insertion_sort_list(listint_t **list)
             while(head->prev != NULL)
                 head = head->prev;
             *list = head;
-            print_list(*list);
-
-           
+            print_list(*list);  
         }
         i = i->next;
     }
-
 }
 
