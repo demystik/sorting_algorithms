@@ -53,6 +53,11 @@ listint_t *head, *i, *h, *temp;
 i = head = *list;
 
 i = head->next;
+
+if (*list == NULL)
+{
+return;
+}
 while (i != NULL)
 {
 h = i;
