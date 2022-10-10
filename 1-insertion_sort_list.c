@@ -25,7 +25,7 @@ temp->prev = h;
  *@temp: temp pointer
  *@h: h pointer
  *Author: Thaoban Abdrasheed
- *Return: nothing to return
+ *Return: return void
  */
 void swap_elseif(listint_t *temp, listint_t *h)
 {
