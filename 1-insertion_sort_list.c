@@ -54,7 +54,7 @@ i = head = *list;
 
 i = head->next;
 
-if (*list == NULL)
+if (list == NULL || *list == NULL || (*list)->next == NULL)
 {
 return;
 }
