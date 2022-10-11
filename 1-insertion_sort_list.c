@@ -6,7 +6,7 @@
  *@temp: temp pointer
  *@h: h pointer
  *Author: Thaoban Abdrasheed
- *Return: nothing to return
+ *Return: return void
  */
 void swap_if(listint_t *temp, listint_t *h)
 {
