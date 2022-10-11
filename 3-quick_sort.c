@@ -5,7 +5,7 @@
  * quicksort - Implementation fo selection sorting
  *@first: index of the first num
  *@last: index of the last number
- *Author: Thaoban Abdrasheed
+ *Author: Thaoban Abdrasheed Ola
  *
  *Return: nothing to return
  */
