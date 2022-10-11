@@ -3,7 +3,7 @@
 
 /**
  * all_sort- checking if array is all sorted
- *@array: pointer to the array of integers
+ *@array: pointer to the array of integers(unsort)
  *@size: size of the array
  *Author: Thaoban Abdrasheed
  *
