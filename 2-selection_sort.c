@@ -29,7 +29,7 @@ return (1);
 
 
 /**
- * selection_sort - Implementation fo selection sorting
+ * selection_sort - Implementation of selection sorting
  *@array: pointer to the array of integers
  *@size: size of the array
  *Author: Thaoban Abdrasheed
@@ -41,6 +41,10 @@ void selection_sort(int *array, size_t size)
 size_t i, j;
 int temp, l, carry, check;
 
+if (array == NULL || size < 2)
+{
+return;
+}
 for (i = 0; i != size; i++)
 {
 check = 0;
