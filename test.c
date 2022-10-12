@@ -10,8 +10,6 @@ of pivot */
 void printArray(int arr[], int size);
 void printarray(int arr[], int size);
 
-int partition(int *arr, int low, int high)
-{
 
  
 
