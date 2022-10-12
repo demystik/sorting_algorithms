@@ -19,12 +19,5 @@ void printarray(int arr[], int size);
 // Driver program to test above functions
 int main()
 {
-    int array[] = {19, 48, 99, 71, 13, 52, 96, 73, 86, 7};
-    size_t n = sizeof(array) / sizeof(array[0]);
-	printf("unsorted array: \n");
-    printArray(array, n);
-	quickSort(array, 0, n-1);
-	printf("Sorted array: \n");
-	printArray(array, n);
 	return 0;
 }
