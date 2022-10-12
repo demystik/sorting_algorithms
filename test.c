@@ -12,11 +12,7 @@ void printarray(int arr[], int size);
 
 int partition(int *arr, int low, int high)
 {
-	int pivot = arr[high]; // pivot
-	int j, temp, i = (low - 1); // Index of smaller element
 
-	f
-   
  
 
 
