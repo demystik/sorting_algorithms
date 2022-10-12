@@ -6,12 +6,5 @@ Scheme.*/
 the pivot element at its correct position in sorted
 	array, and places all smaller (smaller than pivot)
 to left of pivot and all greater elements to right
-of pivot */
-void printArray(int arr[], int size);
-void printarray(int arr[], int size);
-
-
- 
-
 
 
