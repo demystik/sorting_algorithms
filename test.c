@@ -29,13 +29,8 @@ int partition(int *arr, int low, int high)
             //printArray(arr, high + 1);
         }
 	}
-    //swap
-        temp = arr[i + 1];
-        arr[i + 1] = arr[high];
-        arr[high] = temp;
-        printArray(arr, high + 1);
-	return (i + 1);
-}
+   
+ 
 
 
 
