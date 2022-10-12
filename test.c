@@ -15,9 +15,3 @@ void printarray(int arr[], int size);
 
 
 
-
-// Driver program to test above functions
-int main()
-{
-	return 0;
-}
