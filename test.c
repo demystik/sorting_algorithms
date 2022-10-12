@@ -15,10 +15,7 @@ int partition(int *arr, int low, int high)
 	int pivot = arr[high]; // pivot
 	int j, temp, i = (low - 1); // Index of smaller element
 
-	for (j = low; j <= high- 1; j++)
-	{
-		
-	}
+	f
    
  
 
